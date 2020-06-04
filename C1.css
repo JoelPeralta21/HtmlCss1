@@ -1,0 +1,208 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+.divprincipal
+{
+    display: grid;
+    width: 1500px;
+    height: 600px;
+    grid-template-columns: 550px 400px 550px;
+    grid-template-rows: 40px 520px 30px;
+}
+.tituloprincipal1 
+{
+    font-weight: 200;
+    margin-top: 80px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.tituloprincipal2
+{
+    font-weight: 600;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Pprincipal
+{
+    font-weight: 300;
+    font-size: 15px;
+    white-space: pre;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.flexcuadro1
+{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+    align-self: flex-start;/*Lo tira al centro con respecto a la fila del grid*/
+}
+.classcuadro1
+{
+    border-radius: 5px;
+    border-style: solid hidden hidden hidden;
+    border-color: hsl(0, 78%, 62%);
+    border-width: 5px;
+    display: grid;
+    width: 270px;
+    height: 180px;
+    grid-template-rows: 55px 60px 65px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 0;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.titulocuadro1
+{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.parrafocuadro1
+{
+    margin-top: 0;
+    white-space: pre;
+    font-size: 10px;
+}
+.imagencasa
+{
+    display: block;
+    margin-left: auto;
+}
+
+.flexcuadro2
+{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: flex-end;/*Lo tira al centro con respecto a la fila del grid*/
+    justify-self: center; /*lo pega al final de la columna del grid*/
+}
+.classcuadro2
+{
+    border-radius: 5px;
+    border-style: solid hidden hidden hidden;
+    border-color:  hsl(34, 97%, 64%);
+    border-width: 5px;
+    margin-top: 50px;
+    display: grid;
+    width: 270px;
+    height: 180px;
+    grid-template-rows: 55px 60px 65px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.titulocuadro2
+{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.parrafocuadro2
+{
+    margin-top: 0;
+    white-space: pre;
+    font-size: 10px;
+}
+.imagenfoco
+{
+    display: block;
+    margin-left: auto;
+}
+
+.flexcuadro3
+{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;/*Lo tira al centro con respecto a la columna del grid*/
+    justify-self: self-end; /*lo pega al final de la columna del grid*/
+}
+.classcuadro3
+{
+    border-radius: 5px;
+    border-style: solid hidden hidden hidden;
+    border-color:  hsl(180, 62%, 55%);
+    border-width: 5px;
+    margin-top: 50px;
+    display: grid;
+    width: 270px;
+    height: 180px;
+    grid-template-rows: 55px 60px 65px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid
+}
+.titulocuadro3
+{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.parrafocuadro3
+{
+    margin-top: 0;
+    white-space: pre;
+    font-size: 10px;
+}
+.imagenlupa
+{
+    display: block;
+    margin-left: auto;
+}
+
+.flexcuadro4
+{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;/*Lo tira al centro con respecto a la columna del grid*/
+    justify-self: self-start; /*lo pega al final de la columna del grid*/
+}
+.classcuadro4
+{
+    border-radius: 5px;
+    border-style: solid hidden hidden hidden;
+    border-color:  hsl(212, 86%, 64%);
+    border-width: 5px;
+    margin-top: 50px;
+    display: grid;
+    width: 270px;
+    height: 180px;
+    grid-template-rows: 55px 60px 65px;
+    background-color: white;
+    padding: 30px;
+    margin-top: 30px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid
+}
+.titulocuadro4
+{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.parrafocuadro4
+{
+    margin-top: 0;
+    white-space: pre;
+    font-size: 10px;
+}
+.imagenpc
+{
+    display: block;
+    margin-left: auto;
+}
